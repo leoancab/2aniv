@@ -120,21 +120,21 @@
     <div id="step3" class="subtitle fade"></div>
 
     <div id="invite" class="invite-box fade">
-        <h2>✨ Invitación Especial ✨</h2>
-        <p><strong>Fecha:</strong> 29 de noviembre</p>
-        <p><strong>Hora:</strong> 20:00</p>
-        <p><strong>Lugar:</strong> Tu lugar favorito ❤️</p>
-        <p>¿Me acompañas en nuestra cita de aniversario?</p>
+        <h2>✨ Invitación a una cena especial✨</h2>
+        <p><strong>Fecha:</strong> 2 de diciembre</p>
+        <p><strong>Hora:</strong> 19:00</p>
+        <p><strong>Lugar:</strong> La Casa Di Carlo 🍝</p>
+        <p>¿Me acompañas en nuestra cita del segundo aniversario?</p>
     </div>
 
     <script>
         // Cálculo de diferencia entre fechas
-        const startDate = new Date("2022-11-29");
+        const startDate = new Date("2023-12-02");
         const now = new Date();
         const diff = now - startDate;
 
         const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const hours = Math.floor((diff / (1000 * 60 * 60)));
         const minutes = Math.floor((diff / (1000 * 60)) % 60);
 
         document.getElementById("step2").innerText = days + " días";
